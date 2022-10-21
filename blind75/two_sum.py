@@ -15,6 +15,7 @@ def two_sum(nums: List[int], target: int) -> List[int] :
         index_map[n] = i
 
 
+
 tests = [
     {"nums": [2, 7, 11, 15], "target": 9, "expected": [0, 1]},
     {"nums": [3, 2, 4], "target": 6, "expected": [1, 2]},
