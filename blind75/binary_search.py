@@ -26,4 +26,4 @@ for i, tt in enumerate(tests):
     if res != expected:
         print(f"test {i +1} failed. got={res}. want={expected}")
     else:
-        print("test {i+1} passed")
+        print(f"test {i+1} passed")
